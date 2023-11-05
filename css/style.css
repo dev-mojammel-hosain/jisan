@@ -6,11 +6,11 @@
 .avimg{
 	width: 400px;
 	height: 400px;
-	background: #000;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: url(../img/slider/2.png);
+	background: url(../img/slider/2.jpg);
+	/* background: #FFFF; */
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -21,8 +21,8 @@
 	border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .avimg img{
-	width: 90%;
-	height: 90%;
+	width: 97%;
+	height: 97%;
 	border-radius: 30px;
 }
 
