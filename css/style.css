@@ -632,7 +632,7 @@ h6 { font-size: 16px; }
 .dizme_tm_hero .social ul li a{
 	text-decoration: none;
 	color: #000;
-	font-size: 21px;
+	font-size: 19px;
 	border: 2px solid transparent;
 	transition: all linear 0.4s;
 	border-radius: 20px;
@@ -2676,7 +2676,7 @@ input[type=number] {
 	.dizme_tm_hero .name h3{font-size: 60px;}
 	.dizme_tm_hero .job p{font-size: 19px;}
 	.dizme_tm_hero .text p{font-size: 16px;}
-	.dizme_tm_button a{padding: 9px 35px 8px 35px;}
+	.dizme_tm_button a{padding: 0px 20px 0px 20px;}
 	.dizme_tm_hero .social{padding-left: 24px;}
 	.dizme_tm_hero .name{margin-bottom: 13px;}
 	.dizme_tm_hero .job{margin-bottom: 23px;}
@@ -2747,20 +2747,20 @@ input[type=number] {
 	.dizme_tm_portfolio .mobile_title{display: block;}
 	.dizme_tm_portfolio_titles.visible{opacity: 0;visibility: hidden;}
 	.dizme_tm_portfolio .portfolio_list ul li .inner:hover .main{transform: scale(1);}
-	.dizme_tm_hero .content{flex-direction: column-reverse;justify-content: center}
-	.dizme_tm_hero .avatar{padding: 0px;width: auto;margin-bottom: 30px;}
+	.dizme_tm_hero .content{flex-direction: column-reverse;justify-content: center;margin-top: 30px;}
+	.dizme_tm_hero .avatar{padding: 0px;width: auto;margin-bottom: 26px;}
 	.dizme_tm_hero .avatar img{max-width: 300px;max-height: 300px;}
 	.dizme_tm_hero .skills{display: none;}
 	.dizme_tm_hero .details{width: 100%;padding-right: 0px;text-align: center;}
-	.dizme_tm_hero .button{justify-content: center;}
+	.dizme_tm_hero .button{display: flex;justify-content: center;flex-direction: column;}
 	.dizme_tm_hero .hello h3{font-size: 25px;}
 	.dizme_tm_hero .name{margin-bottom: 11px;}
-	.dizme_tm_hero .name h3{font-size: 55px;}
-	.dizme_tm_hero .job{margin-bottom: 23px;}
-	.dizme_tm_hero .job p{font-size: 23px;}
-	.dizme_tm_hero .text{margin-bottom: 30px;}
-	.dizme_tm_hero .text p{font-size: 20px;}
-	.dizme_tm_down {bottom: 20px;}
+	.dizme_tm_hero .name h3{font-size: 44px;}
+	.dizme_tm_hero .job{margin-bottom: 10px;}
+	.dizme_tm_hero .job p{font-size: 18px;}
+	.dizme_tm_hero .text{margin-bottom: 10px;font-size: 14px;}
+	.dizme_tm_hero .text p{font-size: 15px;}
+	.dizme_tm_down {bottom: 20px;display: none;}
 	.dizme_tm_process ul{margin: 0px;}
 	.dizme_tm_process ul li{width: 100%;padding-left: 0px;}
 	.dizme_tm_about .wrapper{flex-direction: column;text-align: center;}
@@ -2816,12 +2816,12 @@ input[type=number] {
 @media (max-width: 768px) {
 	.dizme_tm_hero .avatar img{max-width: 220px;max-height: 220px;}
 	.dizme_tm_hero .avatar .avimg{max-width: 220px;max-height: 220px;}
-	.dizme_tm_hero .job{margin-bottom: 15px;}
-	.dizme_tm_hero .job p{font-size: 18px;}
-	.dizme_tm_hero .hello h3{font-size: 21px;}
-	.dizme_tm_hero .text p{font-size: 16px;}
-	.dizme_tm_hero .name h3{font-size: 42px;}
-	.dizme_tm_hero .social{padding-left: 15px;}
+	.dizme_tm_hero .job{margin-bottom: 10px;}
+	.dizme_tm_hero .job p{font-size: 16px;}
+	.dizme_tm_hero .hello h3{font-size: 16px;}
+	.dizme_tm_hero .text p{font-size: 14px !important;}
+	.dizme_tm_hero .name h3{font-size: 32px;}
+	.dizme_tm_hero .social{padding-left: 0;margin-top: 5px;}
 	.dizme_tm_portfolio .portfolio_list ul{margin: 0px;}
 	.dizme_tm_portfolio .portfolio_list ul li{width: 100%;padding-left: 0px;}
 	.dizme_tm_services .service_list .icon{display: none;}
